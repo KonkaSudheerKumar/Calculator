@@ -1,0 +1,90 @@
+ body{
+    font-family: Tahoma;
+    background-color: grey;
+ }
+ .maincontainer{
+    width:168.9px;
+    height: 230px;
+    background-color: #1b1b32;
+    padding: 3px;
+    border-radius: 3px;
+    padding-top: 5px;
+}
+#inp{
+    display: flex;
+    grid-area: 1/1/2/5;
+    background-color: 1b1b32;
+}
+#ipt{
+    height: 32px;
+    width: 161px;
+    font-size: 20px;
+}
+#flx1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px; 
+    gap:2px
+}
+
+#flx1 div {
+    width: 70px;
+    text-align: center;
+    background-color: #5f5fb8;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    font-size: large;
+    cursor: pointer;
+}
+
+#GID{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:2px;
+    width: 169px;
+    height: 145px;
+    color: white;
+    align-items: center;
+   text-align: center;
+   padding-top: 2px;
+}
+#flex2{
+    grid-area: 1/4/5/5;
+    display: flex;
+    flex-direction: column;
+    gap:2px
+}
+#flex2 div{
+    width: 41px;
+    text-align: center;
+    background-color: #5f5fb8;
+    color: white;
+    padding-top: 6.3px;
+    padding-bottom: 6.3px;
+    border-radius: 3px;
+    font-size: large;
+    cursor: pointer;
+}
+#SEVEN,#EIGHT,#NINE,#FOUR,#FIVE,#SIX,#ONE,#TWO,#THREE,#ZERO{
+    background-color: #f5f6f7;
+    height: 32px;
+    color: #1b1b32;
+    align-content: space-around;
+   border-radius: 50px;
+   cursor: pointer;
+}
+#UP,#DOT{
+    background-color: #5f5fb8;
+    color: #f5f6f7;
+    height: 32px;
+    align-content: space-around;
+   border-radius: 50px;
+   cursor: pointer;
+}
+
+
+
+
